@@ -1,0 +1,2 @@
+# pwshhh
+PowerShell playground.
