@@ -20,3 +20,4 @@ Write-Output "john" | wl-copy
 Get-Content ./README.md
 
 Get-Process | Export-Csv procs.csv
+$procs = Import-Csv ./procs.csv
