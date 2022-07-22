@@ -21,3 +21,5 @@ Get-Content ./README.md
 
 Get-Process | Export-Csv procs.csv
 $procs = Import-Csv ./procs.csv
+
+Get-Module -ListAvailable -SkipEditionCheck
